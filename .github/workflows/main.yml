@@ -38,13 +38,3 @@ jobs:
           FOLDER: dist # build 後的資料夾
           BUILD_SCRIPT: npm install && npm run build # 執行指令# This is a basic workflow to help you get started with Actions
 
-name: CI
-
-# Controls when the action will run. 
-on:
-  # Triggers the workflow on push or pull request events but only for the main branch
-  push:
-    branches: [ feature ]
-  pull_request:
- workflow contains a single job called "build"
-  bui
